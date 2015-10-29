@@ -1,6 +1,7 @@
 # LeetCode.js
 LeetCode Solution with Javascript
-
+--
+![Travis](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg?branch=master)
 
 ```javascript
 var 😎 = Easy, 😐 = Medium, 😨 = Hard
