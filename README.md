@@ -1,7 +1,8 @@
 # LeetCode.js
-LeetCode Solution with Javascript
---
-![Travis](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg?branch=master)
+[![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
+![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
+![Progress](https://img.shields.io/badge/Progress-0%2F274%3D0.00%25-green.svg)
+> LeetCode Solution with Javascript
 
 ```javascript
 var 😎 = Easy, 😐 = Medium, 😨 = Hard
