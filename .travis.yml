@@ -1,5 +1,9 @@
 language: node_js
 node_js:
   - "4.1"
+before_script:
+    - npm install --save-dev gulp
+    - npm install --save-dev gulp-nodemon
+    - npm install --save-dev gulp-jshint
 script:
-    make test
+    gulp run
