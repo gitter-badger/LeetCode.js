@@ -1,8 +1,8 @@
 *.*
-!Gulpfile.js
 !LICENSE
 !.gitignore
 !Makefile
 !README.md
 !.travis.yml
-/node_modules
+!/Test/
+!/Src/
