@@ -22,6 +22,9 @@ var twoSum = function(nums, target) {
         j,
         len = nums.length;
     for(i = 0; i < len; i++) {
+        if(nums[i] > target) {
+            break;
+        }
         for(j = i + 1; j < len; j++) {
             if(nums[i] + nums[j] === target) {
                 return [i + 1, j + 1];
@@ -30,4 +33,21 @@ var twoSum = function(nums, target) {
     }
 };
 
+var twoSum1 = function(nums, target) {
+    var map = [];
+    var temp;
+    var result;
+    nums.forEach(function (elem, i) {
+        temp = map[elem];
+        if(temp !== undefined) {
+            result = [temp+1, i+1];
+        }
+        else{
+            map[target - elem] = i;
+        }
+    });
+    return result;
+};
+
 exports.twoSum = twoSum;
+exports.twoSum1 = twoSum1;
