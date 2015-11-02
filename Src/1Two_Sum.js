@@ -12,19 +12,16 @@
  * Output: index1=1, index2=2
  */
 
- /**
-  * @param {number[]} nums
-  * @param {number} target
-  * @return {number[]}
-  */
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 var twoSum = function(nums, target) {
     var i,
         j,
         len = nums.length;
     for(i = 0; i < len; i++) {
-        if(nums[i] > target) {
-            break;
-        }
         for(j = i + 1; j < len; j++) {
             if(nums[i] + nums[j] === target) {
                 return [i + 1, j + 1];
@@ -33,6 +30,11 @@ var twoSum = function(nums, target) {
     }
 };
 
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 var twoSum1 = function(nums, target) {
     var map = [];
     var temp;
