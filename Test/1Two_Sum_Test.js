@@ -16,7 +16,4 @@ var Test = function (cb) {
     }
 };
 
-var start = new Date().getTime();
 Test(two_sum);
-var end = new Date().getTime();
-console.log(end - start);
