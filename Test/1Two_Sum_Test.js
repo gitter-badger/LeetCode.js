@@ -21,4 +21,5 @@ var Test = function (cb) {
                 'Test case 3 Error');
 };
 
+console.log('++ node ./Test/1Two_Sum_Test.js');
 Test(two_sum);

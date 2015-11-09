@@ -1,15 +1,9 @@
 info:
 	@echo 'This is a codetest about LeetCode Solution with Javascript'
 
-Test_File = `ls ./Test/`
-
-.PHONY: test count
-test:
-	@for f in $(Test_File);\
-	do\
-		echo ++ node Test/$$f;\
-		node Test/$$f;\
-	done
+.PHONY: run count
+run:
+	@node Test/LeetCodetest.js
 
 count:
 	@wc -l `find . -name '*.js'`

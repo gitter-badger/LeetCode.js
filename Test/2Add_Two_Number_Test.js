@@ -36,4 +36,5 @@ var Test = function (cb) {
 
 };
 
+console.log('++ node ./Test/2Add_Two_Number_Test.js');
 Test(Add_two_number);
