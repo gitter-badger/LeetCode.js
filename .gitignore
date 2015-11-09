@@ -1,8 +1,8 @@
-*.*
+!*.*
 !LICENSE
 !.gitignore
 !Makefile
 !README.md
 !.travis.yml
-!/Test/
-!/Src/
+!/Test/*.js
+!/Src/*.js
