@@ -1,7 +1,7 @@
 # LeetCode.js
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-2%20%2F%20274%20%3D%200.73%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-3%20%2F%20274%20%3D%201.09%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -14,7 +14,7 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 4 😨 Median of Two Sorted Arrays
 - [ ] 5 😐 Longest Palindromic Substring
 - [ ] 6 😎 ZigZag Conversion
-- [ ] 7 😎 Reverse Integer
+- [x] 7 😎 Reverse Integer
 - [ ] 8 😎 String to Integer (atoi)
 - [ ] 9 😎 Palindrome Number
 - [ ] 10 😨 Regular Expression Matching
