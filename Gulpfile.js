@@ -1,6 +1,7 @@
-gulp = require('gulp');
-jshint = require('gulp-jshint');
-nodemon = require('gulp-nodemon');
+var gulp = require('gulp');
+var jshint = require('gulp-jshint');
+var nodemon = require('gulp-nodemon');
+var fs = require('fs');
 
 gulp.task('jshint', function () {
     gulp.src('./Src/*.js')
@@ -19,9 +20,20 @@ gulp.task('node', function () {
     });
 });
 
-function sad() {
-    console.log('sad');
-}
-gulp.task('default', function (sad) {
-    sad();
+
+gulp.task('update_percentage', function () {
+    fs.readFile('./README.md', "utf-8", function(err, data) {
+        var total = 274;
+        var completed = data.match(/\[x\]/gi).length;
+        var percent = (completed / 274 * 100).toFixed(2);
+        var url = "![Progress](https://img.shields.io/badge/Progress-"
+                    + completed
+                    + "%20%2F%20"
+                    + total
+                    + "%20%3D%2"
+                    + percent
+                    + "%25-green.svg)";
+        var newdata = data.replace(/\!\[Progress\].*\)/, url);
+        fs.writeFile('./README.md', newdata, 'utf-8');
+    });
 });
