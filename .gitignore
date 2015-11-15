@@ -1,8 +1,1 @@
-!*.*
-!LICENSE
-!.gitignore
-!Makefile
-!README.md
-!.travis.yml
-!/Test/*.js
-!/Src/*.js
+node_modules
