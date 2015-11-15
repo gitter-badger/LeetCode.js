@@ -30,7 +30,7 @@ gulp.task('update_percentage', function () {
                     + completed
                     + "%20%2F%20"
                     + total
-                    + "%20%3D%2"
+                    + "%20%3D%"
                     + percent
                     + "%25-green.svg)";
         var newdata = data.replace(/\!\[Progress\].*\)/, url);
