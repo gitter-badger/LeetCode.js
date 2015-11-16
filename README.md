@@ -163,27 +163,27 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 153 😐 Find Minimum in Rotated Sorted Array
 - [ ] 154 😨 Find Minimum in Rotated Sorted Array II
 - [ ] 155 😎 Min Stack
-- [ ] 156 😐 Binary Tree Upside Down
-- [ ] 157 😎 Read N Characters Given Read4
-- [ ] 158 😨 Read N Characters Given Read4 II - Call multiple times
-- [ ] 159 😨 Longest Substring with At Most Two Distinct Characters
+- [ ] 156 😐 Binary Tree Upside Down 🔒
+- [ ] 157 😎 Read N Characters Given Read4 🔒
+- [ ] 158 😨 Read N Characters Given Read4 II - Call multiple times 🔒
+- [ ] 159 😨 Longest Substring with At Most Two Distinct Characters 🔒
 - [ ] 160 😎 Intersection of Two Linked Lists
-- [ ] 161 😐 One Edit Distance
+- [ ] 161 😐 One Edit Distance 🔒
 - [ ] 162 😐 Find Peak Element
-- [ ] 163 😐 Missing Ranges
+- [ ] 163 😐 Missing Ranges 🔒
 - [ ] 164 😨 Maximum Gap
 - [ ] 165 😎 Compare Version Numbers
 - [ ] 166 😐 Fraction to Recurring Decimal
-- [ ] 167 😐 Two Sum II - Input array is sorted
+- [ ] 167 😐 Two Sum II - Input array is sorted 🔒
 - [ ] 168 😎 Excel Sheet Column Title
 - [ ] 169 😎 Majority Element
-- [ ] 170 😎 Two Sum III - Data structure design
+- [ ] 170 😎 Two Sum III - Data structure design 🔒
 - [ ] 171 😎 Excel Sheet Column Number
 - [ ] 172 😎 Factorial Trailing Zeroes
 - [ ] 173 😐 Binary Search Tree Iterator
 - [ ] 174 😨 Dungeon Game
 - [ ] 179 😐 Largest Number
-- [ ] 186 😐 Reverse Words in a String II
+- [ ] 186 😐 Reverse Words in a String II 🔒
 - [ ] 187 😐 Repeated DNA Sequences
 - [ ] 188 😨 Best Time to Buy and Sell Stock IV
 - [ ] 189 😎 Rotate Array
@@ -234,64 +234,64 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 240 😐 Search a 2D Matrix II
 - [ ] 241 😐 Different Ways to Add Parentheses
 - [ ] 242 😎 Valid Anagram
-- [ ] 243 😎 Shortest Word Distance
-- [ ] 244 😐 Shortest Word Distance II
-- [ ] 245 😐 Shortest Word Distance III
-- [ ] 246 😎 Strobogrammatic Number
-- [ ] 247 😐 Strobogrammatic Number II
-- [ ] 248 😨 Strobogrammatic Number III
-- [ ] 249 😎 Group Shifted Strings
-- [ ] 250 😐 Count Univalue Subtrees
-- [ ] 251 😐 Flatten 2D Vector
-- [ ] 252 😎 Meeting Rooms
-- [ ] 253 😐 Meeting Rooms II
-- [ ] 254 😐 Factor Combinations
-- [ ] 255 😐 Verify Preorder Sequence in Binary Search Tree
-- [ ] 256 😐 Paint House
+- [ ] 243 😎 Shortest Word Distance 🔒
+- [ ] 244 😐 Shortest Word Distance II 🔒
+- [ ] 245 😐 Shortest Word Distance III 🔒
+- [ ] 246 😎 Strobogrammatic Number 🔒
+- [ ] 247 😐 Strobogrammatic Number II 🔒
+- [ ] 248 😨 Strobogrammatic Number III 🔒
+- [ ] 249 😎 Group Shifted Strings 🔒
+- [ ] 250 😐 Count Univalue Subtrees 🔒
+- [ ] 251 😐 Flatten 2D Vector 🔒
+- [ ] 252 😎 Meeting Rooms 🔒
+- [ ] 253 😐 Meeting Rooms II 🔒
+- [ ] 254 😐 Factor Combinations 🔒
+- [ ] 255 😐 Verify Preorder Sequence in Binary Search Tree 🔒
+- [ ] 256 😐 Paint House 🔒
 - [ ] 257 😎 Binary Tree Paths
 - [ ] 258 😎 Add Digits
-- [ ] 259 😐 3Sum Smaller
+- [ ] 259 😐 3Sum Smaller 🔒
 - [ ] 260 😐 Single Number III
-- [ ] 261 😐 Graph Valid Tree
+- [ ] 261 😐 Graph Valid Tree 🔒
 - [ ] 263 😎 Ugly Number
 - [ ] 264 😐 Ugly Number II
-- [ ] 265 😨 Paint House II
-- [ ] 266 😎 Palindrome Permutation
-- [ ] 267 😐 Palindrome Permutation II
+- [ ] 265 😨 Paint House II 🔒
+- [ ] 266 😎 Palindrome Permutation 🔒
+- [ ] 267 😐 Palindrome Permutation II 🔒
 - [ ] 268 😐 Missing Number
-- [ ] 269 😨 Alien Dictionary
-- [ ] 270 😎 Closest Binary Search Tree Value
-- [ ] 271 😐 Encode and Decode Strings
-- [ ] 272 😨 Closest Binary Search Tree Value II
+- [ ] 269 😨 Alien Dictionary 🔒
+- [ ] 270 😎 Closest Binary Search Tree Value 🔒
+- [ ] 271 😐 Encode and Decode Strings 🔒
+- [ ] 272 😨 Closest Binary Search Tree Value II 🔒
 - [ ] 273 😐 Integer to English Words
 - [ ] 274 😎 H-Index
 - [ ] 275 😐 H-Index II
-- [ ] 276 😎 Paint Fence
-- [ ] 277 😐 Find the Celebrity
+- [ ] 276 😎 Paint Fence 🔒
+- [ ] 277 😐 Find the Celebrity 🔒
 - [ ] 278 😎 First Bad Version
-- [ ] 280 😐 Wiggle Sort
-- [ ] 281 😐 Zigzag Iterator
+- [ ] 280 😐 Wiggle Sort 🔒
+- [ ] 281 😐 Zigzag Iterator 🔒
 - [ ] 282 😨 Expression Add Operators
 - [ ] 283 😎 Move Zeroes
 - [ ] 284 😐 Peeking Iterator
-- [ ] 285 😐 Inorder Successor in BST
-- [ ] 286 😐 Walls and Gates
+- [ ] 285 😐 Inorder Successor in BST 🔒
+- [ ] 286 😐 Walls and Gates 🔒
 - [ ] 287 😨 Find the Duplicate Number
-- [ ] 288 😎 Unique Word Abbreviation
+- [ ] 288 😎 Unique Word Abbreviation 🔒
 - [ ] 289 😐 Game of Life
 - [ ] 290 😎 Word Pattern
-- [ ] 291 😨 Word Pattern II
+- [ ] 291 😨 Word Pattern II 🔒
 - [ ] 292 😎 Nim Game
-- [ ] 293 😎 Flip Game
-- [ ] 294 😐 Flip Game II
+- [ ] 293 😎 Flip Game 🔒
+- [ ] 294 😐 Flip Game II 🔒
 - [ ] 295 😨 Find Median from Data Stream
-- [ ] 296 😨 Best Meeting Point
+- [ ] 296 😨 Best Meeting Point 🔒
 - [ ] 297 😐 Serialize and Deserialize Binary Tree
-- [ ] 298 😐 Binary Tree Longest Consecutive Sequence
+- [ ] 298 😐 Binary Tree Longest Consecutive Sequence 🔒
 - [ ] 299 😎 Bulls and Cows
 - [ ] 300 😐 Longest Increasing Subsequence
 - [ ] 301 😨 Remove Invalid Parentheses
-- [ ] 302 😨 Smallest Rectangle Enclosing Black Pixels
+- [ ] 302 😨 Smallest Rectangle Enclosing Black Pixels 🔒
 - [ ] 303 😎 Range Sum Query - Immutable
 - [ ] 304 😐 Range Sum Query 2D - Immutable
-- [ ] 305 😨 Number of Islands II
+- [ ] 305 😨 Number of Islands II 🔒
