@@ -5,3 +5,4 @@ require('./7Reverse_Integer_Test');
 require('./9Palindrome_Number_Test');
 //require('./226Invert_Binary_Tree_Test');
 require('./19RNNFEL_Test.js');
+require('./20Valid_Parentheses_Test.js');
