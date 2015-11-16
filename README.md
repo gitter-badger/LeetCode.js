@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-5%20%2F%20287%20%3D%201.74%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-6%20%2F%20287%20%3D%202.09%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
