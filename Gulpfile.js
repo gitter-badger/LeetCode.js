@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var nodemon = require('gulp-nodemon');
 var fs = require('fs');
+var watch = require('gulp-watch');
 
 gulp.task('jshint', function () {
     gulp.src('./Src/*.js')
@@ -36,4 +37,8 @@ gulp.task('update_percentage', function () {
         var newdata = data.replace(/\!\[Progress\].*\)/, url);
         fs.writeFile('./README.md', newdata, 'utf-8');
     });
+});
+
+gulp.task('watch', function() {
+  gulp.watch(['./Src/*.js', './Test/*.js'], ['jshint']);
 });
