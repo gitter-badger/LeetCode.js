@@ -2,8 +2,8 @@
  * Given a sorted array, remove the duplicates in place
  * such that each element appear only once and return the new length.
  *
- * Do not allocate extra space for another array,
- * you must do this in place with constant memory.
+ * @see Do not allocate extra space for another array,
+ *      you must do this in place with constant memory.
  *
  * For example,
  * Given input array nums = [1,1,2],
@@ -19,5 +19,17 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
+    var flag;
+    nums.forEach(function(elem, index, array) {
+        if(flag === elem) {
+            nums.splice(index, 1);
+        }
+        else {
+            flag = elem;
+        }
+    });
 
+    return nums;
 };
+
+exports.removeDuplicates = removeDuplicates;
