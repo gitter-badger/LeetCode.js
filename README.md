@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-4%20%2F%20287%20%3D%201.39%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-5%20%2F%20287%20%3D%201.74%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -27,7 +27,7 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 17 😐 Letter Combinations of a Phone Number
 - [ ] 18 😐 4Sum
 - [x] 19 😎 Remove Nth Node From End of List
-- [ ] 20 😎 Valid Parentheses
+- [x] 20 😎 Valid Parentheses
 - [ ] 21 😎 Merge Two Sorted Lists
 - [ ] 22 😐 Generate Parentheses
 - [ ] 23 😨 Merge k Sorted Lists
