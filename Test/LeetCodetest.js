@@ -6,3 +6,4 @@ require('./9Palindrome_Number_Test');
 //require('./226Invert_Binary_Tree_Test');
 require('./19RNNFEL_Test.js');
 require('./20Valid_Parentheses_Test.js');
+require('./21Merge_Two_Sorted_Lists_Test');
