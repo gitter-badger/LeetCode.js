@@ -24,9 +24,9 @@ gulp.task('node', function () {
 
 gulp.task('update_percentage', function () {
     fs.readFile('./README.md', "utf-8", function(err, data) {
-        var total = 274;
+        var total = data.match(/- \[[x ]\]/gi).length;
         var completed = data.match(/\[x\]/gi).length;
-        var percent = (completed / 274 * 100).toFixed(2);
+        var percent = (completed / total * 100).toFixed(2);
         var url = "![Progress](https://img.shields.io/badge/Progress-"
                     + completed
                     + "%20%2F%20"

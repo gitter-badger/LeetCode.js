@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-4%20%2F%20274%20%3D%201.46%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-4%20%2F%20287%20%3D%201.39%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -265,3 +265,33 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 272 😨 Closest Binary Search Tree Value II
 - [ ] 273 😐 Integer to English Words
 - [ ] 274 😎 H-Index
+- [ ] 275 😐 H-Index II
+- [ ] 276 😎 Paint Fence
+- [ ] 277 😐 Find the Celebrity
+- [ ] 278 😎 First Bad Version
+- [ ] 280 😐 Wiggle Sort
+- [ ] 281 😐 Zigzag Iterator
+- [ ] 282 😨 Expression Add Operators
+- [ ] 283 😎 Move Zeroes
+- [ ] 284 😐 Peeking Iterator
+- [ ] 285 😐 Inorder Successor in BST
+- [ ] 286 😐 Walls and Gates
+- [ ] 287 😨 Find the Duplicate Number
+- [ ] 288 😎 Unique Word Abbreviation
+- [ ] 289 😐 Game of Life
+- [ ] 290 😎 Word Pattern
+- [ ] 291 😨 Word Pattern II
+- [ ] 292 😎 Nim Game
+- [ ] 293 😎 Flip Game
+- [ ] 294 😐 Flip Game II
+- [ ] 295 😨 Find Median from Data Stream
+- [ ] 296 😨 Best Meeting Point
+- [ ] 297 😐 Serialize and Deserialize Binary Tree
+- [ ] 298 😐 Binary Tree Longest Consecutive Sequence
+- [ ] 299 😎 Bulls and Cows
+- [ ] 300 😐 Longest Increasing Subsequence
+- [ ] 301 😨 Remove Invalid Parentheses
+- [ ] 302 😨 Smallest Rectangle Enclosing Black Pixels
+- [ ] 303 😎 Range Sum Query - Immutable
+- [ ] 304 😐 Range Sum Query 2D - Immutable
+- [ ] 305 😨 Number of Islands II
