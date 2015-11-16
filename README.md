@@ -1,5 +1,6 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
+[![Coverage Status](https://coveralls.io/repos/ZhiweiSun/LeetCode.js/badge.svg?branch=master&service=github)](https://coveralls.io/github/ZhiweiSun/LeetCode.js?branch=master)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
 ![Progress](https://img.shields.io/badge/Progress-4%20%2F%20274%20%3D%201.46%25-green.svg)
 > LeetCode Solution with Javascript
