@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-6%20%2F%20287%20%3D%202.09%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-7%20%2F%20287%20%3D%202.44%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -65,7 +65,7 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 55 😐 Jump Game
 - [ ] 56 😨 Merge Intervals
 - [ ] 57 😨 Insert Interval
-- [ ] 58 😎 Length of Last Word
+- [x] 58 😎 Length of Last Word
 - [ ] 59 😐 Spiral Matrix II
 - [ ] 60 😐 Permutation Sequence
 - [ ] 61 😐 Rotate List
