@@ -21,7 +21,8 @@
  * @constructor
  */
 var Stack = function() {
-
+    this.val = [];
+    this.count = 0;
 };
 
 /**
@@ -29,26 +30,32 @@ var Stack = function() {
  * @returns {void}
  */
 Stack.prototype.push = function(x) {
-
+    this.val.push(x);
+    this.count++;
 };
 
 /**
  * @returns {void}
  */
 Stack.prototype.pop = function() {
-
+    this.val.pop();
+    this.count--;
 };
 
 /**
  * @returns {number}
  */
 Stack.prototype.top = function() {
-
+    return this.val[this.count-1];
 };
 
 /**
  * @returns {boolean}
  */
 Stack.prototype.empty = function() {
+    if(this.count === 0) {
+        return true;
+    }
 
+    return false;
 };
