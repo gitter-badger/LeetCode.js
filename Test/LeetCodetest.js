@@ -7,3 +7,5 @@ require('./9Palindrome_Number_Test');
 require('./19RNNFEL_Test.js');
 require('./20Valid_Parentheses_Test.js');
 require('./21Merge_Two_Sorted_Lists_Test');
+require('./26RDfSA_Test');
+require('./58Length_of_Last_Word_Test');

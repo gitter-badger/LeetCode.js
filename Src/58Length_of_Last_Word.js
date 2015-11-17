@@ -18,7 +18,7 @@
  */
 var lengthOfLastWord = function(s) {
     var arr = s.split(' ').reverse();
-    console.log(arr);
+
     for(var i = 0; i < arr.length; i++) {
         if(arr[i].length !== 0) {
             return arr[i].length;
