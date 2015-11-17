@@ -4,6 +4,11 @@ var nodemon = require('gulp-nodemon');
 var fs = require('fs');
 var watch = require('gulp-watch');
 var git = require('gulp-git');
+var shell = require('gulp-shell')
+
+gulp.task('count', shell.task(
+    "wc -l `find ./Src ./Test -name '*.js'`"
+));
 
 gulp.task('jshint', function () {
     gulp.src('./Src/*.js')

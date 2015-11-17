@@ -16,7 +16,8 @@
         "gulp-rename": "1.2.2",
         "gulp-nodemon": "*",
         "gulp-watch": "*",
-        "gulp-git": "^1.6.0"
+        "gulp-git": "^1.6.0",
+        "gulp-shell": "*"
     },
     "keywords": [
         "LeetCode",
