@@ -38,7 +38,6 @@ gulp.task('update_percentage', function () {
                     "%20%3D%20"+
                     percent+
                     "%25-green.svg)";
-        console.log(url);
         var newdata = do_data.replace(/\!\[Progress\].*\)/, url);
         fs.writeFile('./README.md', newdata, 'utf-8');
     });
