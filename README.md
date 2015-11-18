@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-7%20%2F%20287%20%3D%202.44%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-8%20%2F%20287%20%3D%202.79%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -216,7 +216,7 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 222 😐 Count Complete Tree Nodes
 - [ ] 223 😎 Rectangle Area
 - [ ] 224 😐 Basic Calculator
-- [ ] 225 😎 Implement Stack using Queues
+- [x] 225 😎 Implement Stack using Queues
 - [ ] 226 😎 Invert Binary Tree
 - [ ] 227 😐 Basic Calculator II
 - [ ] 228 😎 Summary Ranges
