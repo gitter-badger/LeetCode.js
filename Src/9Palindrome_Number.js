@@ -18,6 +18,7 @@
  */
 
 /**
+ * @TODO Implement Palindrome Number
  * @param {number} x
  * @return {boolean}
  */
