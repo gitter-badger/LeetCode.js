@@ -37,7 +37,7 @@ var productExceptSelf = function(nums) {
             arr[index] = sum;
         }
         else if(flag === 1){
-            arr[index] = 0
+            arr[index] = 0;
         }
         else {
             arr[index] = sum / elem;
