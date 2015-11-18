@@ -19,7 +19,31 @@
  * @return {number[]}
  */
 var productExceptSelf = function(nums) {
-
+    var sum = 1;
+    var flag = 0; // the numbers of zero in the array
+    nums.forEach(function (elem) {
+        if(elem !== 0) {
+            sum *= elem;
+        }
+        else {
+            flag++;
+        }
+    });
+    nums.forEach(function (elem, index, arr) {
+        if(flag >= 2) {
+            arr[index] = 0;
+        }
+        else if(elem === 0) {
+            arr[index] = sum;
+        }
+        else if(flag === 1){
+            arr[index] = 0
+        }
+        else {
+            arr[index] = sum / elem;
+        }
+    });
+    return nums;
 };
 
 exports.productExceptSelf = productExceptSelf;
