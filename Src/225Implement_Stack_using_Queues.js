@@ -59,3 +59,5 @@ Stack.prototype.empty = function() {
 
     return false;
 };
+
+exports.Stack = Stack;
