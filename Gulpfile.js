@@ -4,7 +4,8 @@ var nodemon = require('gulp-nodemon');
 var fs = require('fs');
 var watch = require('gulp-watch');
 var git = require('gulp-git');
-var shell = require('gulp-shell')
+var shell = require('gulp-shell');
+var yargs = require('yargs').argv;
 
 gulp.task('count', shell.task(
     "wc -l `find ./Src ./Test -name '*.js'`"
@@ -29,8 +30,12 @@ gulp.task('node',['jshint'], function () {
 
 gulp.task('update_percentage', function () {
     fs.readFile('./README.md', "utf-8", function(err, data) {
-        var total = data.match(/- \[[x ]\]/gi).length;
-        var completed = data.match(/\[x\]/gi).length;
+        var completed = "[x] " + yargs.n;
+        var Reg = new RegExp('\\[ \\] '+yargs.n);
+        var do_data = data.replace(Reg, completed);
+
+        var total = do_data.match(/- \[[x ]\]/gi).length;
+        var completed = do_data.match(/\[x\]/gi).length;
         var percent = (completed / total * 100).toFixed(2);
         var url = "![Progress](https://img.shields.io/badge/Progress-"
                     + completed
@@ -39,7 +44,7 @@ gulp.task('update_percentage', function () {
                     + "%20%3D%20"
                     + percent
                     + "%25-green.svg)";
-        var newdata = data.replace(/\!\[Progress\].*\)/, url);
+        var newdata = do_data.replace(/\!\[Progress\].*\)/, url);
         fs.writeFile('./README.md', newdata, 'utf-8');
     });
 });
@@ -49,7 +54,7 @@ gulp.task('add', function(){
         .pipe(git.add());
 });
 
-gulp.task('commit', ['update_percentage', 'add'], function() {
+gulp.task('commit', ['update_percentage'], function() {
     return gulp.src('./README.md')
         .pipe(git.commit('update percentage'));
 });
