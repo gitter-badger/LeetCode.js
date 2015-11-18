@@ -24,12 +24,14 @@ gulp.task('node',['jshint'], function () {
 
 gulp.task('update_percentage', function () {
     fs.readFile('./README.md', "utf-8", function(err, data) {
-        var to_add = "[x] " + yargs.n;
-        var Reg = new RegExp('\\[ \\] '+yargs.n);
-        var do_data = data.replace(Reg, to_add);
+        if(yargs.n) {
+            var to_add = "[x] " + yargs.n;
+            var Reg = new RegExp('\\[ \\] '+yargs.n);
+            data = data.replace(Reg, to_add);
+        }
 
-        var total = do_data.match(/- \[[x ]\]/gi).length;
-        var completed = do_data.match(/\[x\]/gi).length;
+        var total = data.match(/- \[[x ]\]/gi).length;
+        var completed = data.match(/\[x\]/gi).length;
         var percent = (completed / total * 100).toFixed(2);
         var url = "![Progress](https://img.shields.io/badge/Progress-" +
                     completed +
@@ -38,7 +40,7 @@ gulp.task('update_percentage', function () {
                     "%20%3D%20"+
                     percent+
                     "%25-green.svg)";
-        var newdata = do_data.replace(/\!\[Progress\].*\)/, url);
+        var newdata = data.replace(/\!\[Progress\].*\)/, url);
         fs.writeFile('./README.md', newdata, 'utf-8');
     });
 });
