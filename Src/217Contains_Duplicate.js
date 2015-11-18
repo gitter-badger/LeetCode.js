@@ -10,7 +10,19 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
+    var flag = [];
+    var len = nums.length;
 
+    for(var i = 0; i < len; i++) {
+        if(flag[nums[i]] !== undefined) {
+             return true;
+        }
+        else {
+            flag[nums[i]] = 1;
+        }
+    }
+
+    return false;
 };
 
 exports.containsDuplicate = containsDuplicate;

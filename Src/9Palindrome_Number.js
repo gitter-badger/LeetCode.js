@@ -22,5 +22,7 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    
+
 };
+
+exports.isPalindrome = isPalindrome;
