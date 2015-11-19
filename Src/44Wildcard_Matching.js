@@ -22,7 +22,7 @@
  */
 
 /**
- * @TODO Implement Wildcard Matching 
+ * @TODO Implement Wildcard Matching
  * @param {string} s
  * @param {string} p
  * @return {boolean}
@@ -30,3 +30,5 @@
 var isMatch = function(s, p) {
 
 };
+
+exports.isMatch = isMatch;
