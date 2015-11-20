@@ -28,7 +28,8 @@
  * @constructor
  */
 var MedianFinder = function() {
-
+    this.val = [];
+    this.count = 0;
 };
 
 /**
@@ -37,7 +38,11 @@ var MedianFinder = function() {
  * @return {void}
  */
 MedianFinder.prototype.addNum = function(num) {
-
+    this.val.push(num);
+    this.val.sort(function(a, b) {
+        return a - b;
+    });
+    this.count++;
 };
 
 /**
@@ -45,12 +50,14 @@ MedianFinder.prototype.addNum = function(num) {
  * @return {double}
  */
 MedianFinder.prototype.findMedian = function() {
-
+    var temp = this.count / 2;
+    if(this.count % 2 !== 0) {
+        return this.val[parseInt(temp) + 1];
+    }
+    else {
+        if(temp === 1) {
+            return  (this.val[0] + this.val[1]) / 2;
+        }
+        return (this.val[temp] + this.val[temp + 1]) / 2;
+    }
 };
-
-/**
- * Your MedianFinder object will be instantiated and called as such:
- * var mf = new MedianFinder();
- * mf.addNum(1);
- * mf.findMedian();
- */
