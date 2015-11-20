@@ -10,6 +10,7 @@
  * sumRange(0, 2) -> 9
  * update(1, 2)
  * sumRange(0, 2) -> 8
+ *
  * @see
  * Note:
  * The array is only modifiable by the update function.
@@ -22,7 +23,7 @@
  * @param {number[]} nums
  */
 var NumArray = function(nums) {
-
+    this.num = nums;
 };
 
 /**
@@ -31,7 +32,7 @@ var NumArray = function(nums) {
  * @return {void}
  */
 NumArray.prototype.update = function(i, val) {
-
+    this.num[i] = val;
 };
 
 /**
@@ -40,14 +41,17 @@ NumArray.prototype.update = function(i, val) {
  * @return {number}
  */
 NumArray.prototype.sumRange = function(i, j) {
+    var sum = 0;
+    for(var index = i; index < j + 1; index++) {
+        sum += this.num[index];
+    }
 
+    return sum;
 };
 
 
-/**
-  * Your NumArray object will be instantiated and called as such:
-  * var numArray = new NumArray(nums);
-  * numArray.sumRange(0, 1);
-  * numArray.update(1, 10);
-  * numArray.sumRange(0, 2);
-  */
+var nums = [1, 3, 5];
+var numArray = new NumArray(nums);
+console.log(numArray.sumRange(0, 1));
+numArray.update(1, 10);
+console.log(numArray.sumRange(0, 2));
