@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-10%20%2F%20289%20%3D%203.46%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-11%20%2F%20289%20%3D%203.81%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -188,7 +188,7 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 188 😨 Best Time to Buy and Sell Stock IV
 - [ ] 189 😎 Rotate Array
 - [ ] 190 😎 Reverse Bits
-- [ ] 191 😎 Number of 1 Bits
+- [x] 191 😎 Number of 1 Bits
 - [ ] 198 😎 House Robber
 - [ ] 199 😐 Binary Tree Right Side View
 - [ ] 200 😐 Number of Islands
