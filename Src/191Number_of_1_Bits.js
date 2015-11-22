@@ -14,13 +14,19 @@
 
 
 /**
- * @TODO Implement Number of 1 Bits 
  * @param {number} n - a positive integer
  * @return {number}
  */
 var hammingWeight = function(n) {
+    var count = 0;
+    while(n) {
+        if(n % 2 === 1) {
+            count++;
+        }
+        n = parseInt(n / 2);
+    }
 
+    return count;
 };
-
 
 exports.hammingWeight = hammingWeight;
