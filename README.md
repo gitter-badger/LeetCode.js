@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-11%20%2F%20289%20%3D%203.81%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-11%20%2F%20290%20%3D%203.79%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -297,3 +297,4 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 305 😨 Number of Islands II 🔒
 - [ ] 306 😐 Additive Number
 - [ ] 307 😐 Range Sum Query - Mutable
+- [ ] 308 😨 Range Sum Query 2D - Mutable 🔒
