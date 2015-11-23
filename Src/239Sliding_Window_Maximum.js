@@ -28,7 +28,26 @@
  * @return {number[]}
  */
 var maxSlidingWindow = function(nums, k) {
+    var len = nums.length;
+    var result = [];
+    var temp = 0;
+    if(k === 0) {
+        return [];
+    }
+    if(k === 1) {
+        return nums;
+    }
+    for(var i = k - 1 ; i < len; i++) {
+        for(var j = i - k + 1; j < i + 1; j++) {
+            if(nums[j] > temp) {
+                temp = nums[j];
+            }
+        }
+        result.push(temp);
+        temp = 0;
+    }
 
+    return result;
 };
 
 
