@@ -14,3 +14,4 @@ require('./191Number_of_1_Bits_Test');
 require('./217Contains_Duplicate_Test');
 require('./225Implement_Stack_using_Queues_Test');
 require('./238Product_of_Array_Except_Self_Test');
+require('./239Sliding_Window_Maximum_Test');
