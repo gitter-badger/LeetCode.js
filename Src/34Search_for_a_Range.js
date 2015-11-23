@@ -34,5 +34,7 @@ var searchRange = function(nums, target) {
     if(end === -1) {
         start = -1;
     }
-    return [start, end]
+    return [start, end];
 };
+
+exports.searchRange = searchRange;

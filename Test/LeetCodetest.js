@@ -8,6 +8,7 @@ require('./19RNNFEL_Test.js');
 require('./20Valid_Parentheses_Test.js');
 require('./21Merge_Two_Sorted_Lists_Test');
 require('./26RDfSA_Test');
+require('./34Search_for_a_Range_Test');
 require('./58Length_of_Last_Word_Test');
 require('./191Number_of_1_Bits_Test');
 require('./217Contains_Duplicate_Test');
