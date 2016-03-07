@@ -1,7 +1,7 @@
 # [LeetCode.js](https://leetcode.com)
 [![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
-![Progress](https://img.shields.io/badge/Progress-13%20%2F%20290%20%3D%204.48%25-green.svg)
+![Progress](https://img.shields.io/badge/Progress-13%20%2F%20318%20%3D%204.09%25-green.svg)
 > LeetCode Solution with Javascript
 
 ```javascript
@@ -298,3 +298,31 @@ var 😎 = Easy, 😐 = Medium, 😨 = Hard
 - [ ] 306 😐 Additive Number
 - [ ] 307 😐 Range Sum Query - Mutable
 - [ ] 308 😨 Range Sum Query 2D - Mutable 🔒
+- [ ] 308 😨 Range Sum Query 2D - Mutable
+- [ ] 309 😐 Best Time to Buy and Sell Stock with Cooldown
+- [ ] 310 😐 Minimum Height Trees
+- [ ] 311 😐 Sparse Matrix Multiplication 🔒
+- [ ] 312 😨 Burst Balloons
+- [ ] 313 😐 Super Ugly Number
+- [ ] 314 😐 Binary Tree Vertical Order Traversal 🔒
+- [ ] 315 😨 Count of Smaller Numbers After Self
+- [ ] 316 😐 Remove Duplicate Letters
+- [ ] 317 😨 Shortest Distance from All Buildings 🔒
+- [ ] 318 😐 Maximum Product of Word Lengths
+- [ ] 319 😐 Bulb Switcher
+- [ ] 320 😐 Generalized Abbreviation 🔒
+- [ ] 321 😨 Create Maximum Number
+- [ ] 322 😐 Coin Change
+- [ ] 323 😐 Number of Connected Components in an Undirected Graph 🔒
+- [ ] 324 😐 Wiggle Sort II
+- [ ] 325 😎 Maximum Size Subarray Sum Equals k 🔒
+- [ ] 326 😎 Power of Three
+- [ ] 327 😨 Count of Range Sum
+- [ ] 328 😎 Odd Even Linked List
+- [ ] 329 😐 Longest Increasing Path in a Matrix
+- [ ] 330 😐 Patching Array
+- [ ] 331 😐 Verify Preorder Serialization of a Binary Tree
+- [ ] 332 😐 Reconstruct Itinerary
+- [ ] 333 😐 Largest BST Subtree 🔒
+- [ ] 334 😐 Increasing Triplet Subsequence
+- [ ] 335 😐 Self Crossing
