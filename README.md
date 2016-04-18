@@ -1,5 +1,5 @@
 # [LeetCode.js](https://leetcode.com)
-[![Travis](https://img.shields.io/travis/ZhiweiSun/LeetCode.js.svg)](https://travis-ci.org/ZhiweiSun/LeetCode.js.svg)
+![Travis](https://travis-ci.org/szwathub/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
 ![Code Climate](https://codeclimate.com/github/ZhiweiSun/LeetCode.js/badges/gpa.svg)
 ![Progress](https://img.shields.io/badge/Progress-13%20%2F%20318%20%3D%204.09%25-green.svg)
