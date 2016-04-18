@@ -2,6 +2,7 @@
 ![Travis](https://travis-ci.org/szwathub/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
 [![Code Climate](https://codeclimate.com/github/szwathub/LeetCode.js/badges/gpa.svg)](https://codeclimate.com/github/szwathub/LeetCode.js)
+[![Issue Count](https://codeclimate.com/github/szwathub/LeetCode.js/badges/issue_count.svg)](https://codeclimate.com/github/szwathub/LeetCode.js)
 ![Progress](https://img.shields.io/badge/Progress-13%20%2F%20318%20%3D%204.09%25-green.svg)
 > LeetCode Solution with Javascript
 
