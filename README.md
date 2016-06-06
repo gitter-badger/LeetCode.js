@@ -1,4 +1,6 @@
 # [LeetCode.js](https://leetcode.com)
+
+[![Join the chat at https://gitter.im/ZhiweiSun/LeetCode.js](https://badges.gitter.im/ZhiweiSun/LeetCode.js.svg)](https://gitter.im/ZhiweiSun/LeetCode.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Travis](https://travis-ci.org/szwathub/LeetCode.js.svg)
 ![Language](https://img.shields.io/badge/language-Javascript-orange.svg)
 [![Code Climate](https://codeclimate.com/github/szwathub/LeetCode.js/badges/gpa.svg)](https://codeclimate.com/github/szwathub/LeetCode.js)
